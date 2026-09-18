@@ -4,7 +4,7 @@ Converts output from [`admesh`](https://admesh.readthedocs.io/en/latest/) into a
 
 [`admesh`](https://admesh.readthedocs.io/en/latest/) is a tool that extracts data from 3D scans stored as STL files
 
-Example of usage of `admesh2tsv.bash` with provided test data set `admesh.out`:
+Example usage of `admesh2tsv.bash` with provided test data set `admesh.out`:
 
 ```bash
 # bash admesh2tsv.bash <admesh output file>

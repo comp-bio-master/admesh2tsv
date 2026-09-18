@@ -8,7 +8,7 @@ Example usage of `admesh2tsv.bash` with provided test data set `admesh.out`:
 
 ```bash
 # bash admesh2tsv.bash <admesh output file>
-bash admesh2tsv.bash admesh.out
+bash admesh2tsv.bash admesh.out | column -t
 
 # bash admesh2tsv.bash <admesh output file> > <new tidy tsv file>
 bash admesh2tsv.bash admesh.out > admesh.tsv
